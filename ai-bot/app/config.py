@@ -6,3 +6,4 @@ class Configuration(BaseSettings):
 
     twitch_username: str
     twitch_oauth_token: str
+    openai_api_key: str

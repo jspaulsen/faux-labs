@@ -7,10 +7,12 @@ name = "pypi"
 pydantic = "*"
 websockets = "*"
 pydantic-settings = "*"
+openai = "*"
+async-openai = "*"
+file-io = "==v0.5.01rc0"
 
 [dev-packages]
 pytest = "*"
 
 [requires]
 python_version = "3.11"
-python_full_version = "3.11.1"
